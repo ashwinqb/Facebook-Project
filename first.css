@@ -800,3 +800,20 @@ background-image: url("midmenu.png");
 .trnd ul li p{
 	line-height: 90%;
 }
+.txts a{
+	color: #9197A3;
+	font-size: 12px;
+	
+}
+#dotclr{
+	color: #9197A3;
+}
+.txts{
+	margin-left: 5px;
+}
+#no{
+	text-decoration: none;
+}
+.txts a:HOVER {
+	color: #9197A3;
+}
