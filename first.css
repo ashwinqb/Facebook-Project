@@ -30,7 +30,7 @@
 
 /*menu*/
 .meenu {
-	margin-top: 5px;
+	margin-top: -1px;
 	margin-left: 150px;
 }
 
@@ -61,7 +61,7 @@
 /*menu*/
 .lineright {
 	border-right: 1px solid #2e4576;
-	padding-right: 8px;
+	padding-right: 0px;
 }
 /*menu*/
 .row {
@@ -75,6 +75,29 @@
 }
 
 /*menu friendsreq*/
+.frndreq{
+	background-image: url("bar.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 27px;
+	width: 27px;
+	background-position: 0px -604px;
+	
+	
+}
+.frndreq:HOVER{
+	
+	background-image: url("bar.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 27px;
+	width: 27px;
+	background-position: 0px -572px;
+}
 #sizegly1:hover {
 	text-decoration: blink;
 	background: #2e4576;
@@ -85,6 +108,17 @@
 	margin-left: 75px;
 }
 /*menu chat*/
+.msgimg{
+	background-image: url("bar.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 27px;
+	width: 27px;
+	background-position: -6px -508px;
+}
+	
 #sizegly2:hover {
 	text-decoration: blink;
 	background: #2e4576;
@@ -95,6 +129,16 @@
 	margin-left: 8px;
 }
 /*menu notification*/
+.ntimg{
+	background-image: url("bar.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 27px;
+	width: 27px;
+	background-position: -1px -986px;
+}
 #sizegly3 {
 	font-size: 15px;
 	margin-left: 8px;
@@ -105,6 +149,16 @@
 	background: #2e4576;
 }
 /*menu privacy*/
+.priv{
+	background-image: url("bar.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background-position: -32px -564px;
+}
 #sizegly4 {
 	font-size: 15px;
 }
@@ -113,8 +167,30 @@
 	background-color: transparent;
 	border-color: transparent;
 	position: static;
+	margin-left: 4px;
 }
-
+#alnb{
+	margin-left:-24px;
+}
+#alnn{
+	margin-left:-46px;
+}
+.logt{
+	background-image: url("green.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 16px;
+	width: 13px;
+	background-position: -175px -192px;
+}
+#caretpos{
+	margin-left: -25px;
+}
+#lockpos{
+	margin-left: -7px;
+}
 .meenu ul li ul .divider {
 	display: block;
 	width: auto;
