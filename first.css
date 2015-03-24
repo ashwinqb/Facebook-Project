@@ -778,11 +778,13 @@ body {
 .trnd ul li div {
 	display: inline;
 }
-#sty:hover{
+
+#sty:hover {
 	text-decoration: none;
 }
-.mic{
-background-image: url("midmenu.png");
+
+.mic {
+	background-image: url("midmenu.png");
 	vertical-align: middle;
 	background-size: auto auto;
 	background-repeat: no-repeat;
@@ -791,73 +793,143 @@ background-image: url("midmenu.png");
 	height: 13px;
 	margin-left: 3px;
 	background-position: -235px -178px;
-	
+}
 
-	}
-#s{
+#s {
 	margin-left: 76px;
 }
-.trnd ul li p{
+
+.trnd ul li p {
 	line-height: 90%;
 }
-.txts a{
+
+.txts a {
 	color: #9197A3;
 	font-size: 12px;
-	
 }
-#dotclr{
+
+#dotclr {
 	color: #9197A3;
 }
-.txts{
+
+.txts {
 	margin-left: 5px;
 }
-#no{
+
+#no {
 	text-decoration: none;
 }
+
 .txts a:HOVER {
 	color: #9197A3;
 }
 
-.chatpane{
+.chatpane {
 	margin-top: 62px;
 	width: 20px;
 	height: 600px;
-	position:fixed;
+	position: fixed;
 	margin-left: 1070px;
 	float: right;
-	border-left: 1px solid rgba(0, 0, 0, 0.1); 
-	
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
-.chataln{
+
+.chataln {
 	margin-left: -75px;
-	margin-bottom:5px;
-	font-size: 12px; 
+	margin-bottom: 5px;
+	font-size: 12px;
 }
+
 .div3 {
 	height: 1px;
-	margin-bottom:5px;
+	margin-bottom: 5px;
 	overflow: auto;
-	background-color:rgba(0, 0, 0, 0.1) ;
-	width:auto;
+	background-color: rgba(0, 0, 0, 0.1);
+	width: auto;
 }
-.chataln1 strong{
+
+.chataln1 strong {
 	margin-left: -38px;
-	margin-bottom:5px;
+	margin-bottom: 5px;
 	font-size: 11px;
-	color: #9197A3; 
+	color: #9197A3;
 }
-#chatsearch{
-	margin-top:30px;
+
+#chatsearch {
 	height: 25px;
-	width: 203px;
-	border-radius:0px; 
-	box-shadow:none;
-	border-left: none;
-	border-right: none;
+	width: 150px;
+	border-radius: 0px;
+	box-shadow: none;
+	border: none;
 }
-.chatalnn{
+
+.chatalnn {
+	margin-top: 30px;
 	margin-left: -40px;
+	background-color: white;
+	width: 203px;
+	height: 28px;
+	border-bottom: 1px solid #BDC7D8;
+	border-top: 1px solid #BDC7D8;
+}
+
+.setng {
+	background-image: url("chatse1.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-left: 153px;
+	background-position: -137px -106px;
+	margin-top: -46px;
+}
+
+.nmsg {
+	background-image: url("chatse.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-left: 178px;
+	background-position: -102px -422px;
+	margin-top: -87px;
+}
+
+.greendot {
+	margin-left: 5px;
+
+	background-image : url('green.png');
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 11px;
+	width: 11px;
+	background-position: -197px -192px;
+	background-image: url('green.png');
+	vertical-align: middle;
+}
+
+.grnclr {
+	color: #63A924;
 	
+	font-size: 9px;
 	
-	 
+}
+
+.grnclr:HOVER {
+	color: #63A924;
+	text-decoration: none;
+}
+#grn1{
+	margin-left:52px;
+}
+#grn2{
+	margin-left: 80px;
+}
+#grn3{
+	margin-left:50px;
 }
