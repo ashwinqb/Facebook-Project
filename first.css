@@ -85,10 +85,9 @@
 	width: 27px;
 	background-position: 0px -604px;
 	
-	
 }
+
 .frndreq:HOVER{
-	
 	background-image: url("bar.png");
 	vertical-align: middle;
 	background-size: auto auto;
@@ -98,15 +97,17 @@
 	width: 27px;
 	background-position: 0px -572px;
 }
-#sizegly1:hover {
-	text-decoration: blink;
-	background: #2e4576;
+.frndreq:ACTIVE,.frndreq:AFTER{
+	background-image: url("bar.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 27px;
+	width: 27px;
+	background-position: 0px -541px;
 }
 
-#sizegly1 {
-	font-size: 15px;
-	margin-left: 75px;
-}
 /*menu chat*/
 .msgimg{
 	background-image: url("bar.png");
@@ -118,16 +119,28 @@
 	width: 27px;
 	background-position: -6px -508px;
 }
-	
-#sizegly2:hover {
-	text-decoration: blink;
-	background: #2e4576;
-}
 
-#sizegly2 {
-	font-size: 15px;
-	margin-left: 8px;
-}
+.msgimg:HOVER{
+	background-image: url("bar.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 27px;
+	width: 27px;
+	background-position: -6px -476px;
+}	
+.msgimg:ACTIVE{
+	background-image: url("bar.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 27px;
+	width: 27px;
+	background-position: -6px -349px;
+}	
+
 /*menu notification*/
 .ntimg{
 	background-image: url("bar.png");
@@ -139,15 +152,29 @@
 	width: 27px;
 	background-position: -1px -986px;
 }
-#sizegly3 {
-	font-size: 15px;
-	margin-left: 8px;
+.ntimg:HOVER{
+	background-image: url("bar.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 27px;
+	width: 27px;
+	background-position: -1px -955px;
 }
 
-#sizegly3:hover {
-	text-decoration: blink;
-	background: #2e4576;
+.ntimg:ACTIVE{
+	background-image: url("bar.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 27px;
+	width: 27px;
+	background-position: -1px -924px;
 }
+
+
 /*menu privacy*/
 .priv{
 	background-image: url("bar.png");
@@ -159,21 +186,20 @@
 	width: 16px;
 	background-position: -32px -564px;
 }
-#sizegly4 {
-	font-size: 15px;
-}
+
 
 #aaa {
 	background-color: transparent;
 	border-color: transparent;
 	position: static;
 	margin-left: 4px;
+	text-decoration: none;
 }
 #alnb{
-	margin-left:-24px;
+	margin-left:-3px;
 }
 #alnn{
-	margin-left:-46px;
+	margin-left:-14px;
 }
 .logt{
 	background-image: url("green.png");
