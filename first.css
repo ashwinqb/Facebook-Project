@@ -11,12 +11,33 @@
 	font-style: normal;
 }
 
+.logo1 {
+	background-image: url('green.png');
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 29px;
+	width: 29px;
+	background-position: -156px -120px;
+	margin-left: 62px;
+	margin-top: -3px;
+}
+
 .aln {
 	width: 100px;
 	box-sizing: border-box;
 	list-style: none;
 	display: inline;
 	align: right;
+}
+
+#barh {
+	height: 25px;
+	font-size: 12px;
+}
+
+#sp {
+	top: -1px;
 }
 
 .row {
@@ -33,6 +54,10 @@
 	margin-top: -1px;
 	margin-left: 150px;
 }
+#ash:HOVER{
+	background-color: rgba(0, 0, 0, 0.1);
+	
+}
 
 /*menu*/
 .meenu a {
@@ -42,7 +67,11 @@
 /*menu*/
 .meenu a:hover {
 	text-decoration: none;
-	background: #2e4576;
+	color: white;
+}
+
+.meenu ul {
+	margin-top: 2px;
 }
 
 /*menu*/
@@ -56,12 +85,12 @@
 /*menu*/
 .lineleft {
 	border-left: 1px solid #2e4576;
-	padding-left: 5px;
+	padding-left: 10px;
 }
 /*menu*/
 .lineright {
 	border-right: 1px solid #2e4576;
-	padding-right: 0px;
+	padding-right: 10px;
 }
 /*menu*/
 .row {
@@ -75,7 +104,7 @@
 }
 
 /*menu friendsreq*/
-.frndreq{
+.frndreq {
 	background-image: url("bar.png");
 	vertical-align: middle;
 	background-size: auto auto;
@@ -84,10 +113,9 @@
 	height: 27px;
 	width: 27px;
 	background-position: 0px -604px;
-	
 }
 
-.frndreq:HOVER{
+.frndreq:HOVER {
 	background-image: url("bar.png");
 	vertical-align: middle;
 	background-size: auto auto;
@@ -97,7 +125,8 @@
 	width: 27px;
 	background-position: 0px -572px;
 }
-.frndreq:ACTIVE,.frndreq:AFTER{
+
+.frndreq:ACTIVE{
 	background-image: url("bar.png");
 	vertical-align: middle;
 	background-size: auto auto;
@@ -109,7 +138,7 @@
 }
 
 /*menu chat*/
-.msgimg{
+.msgimg {
 	background-image: url("bar.png");
 	vertical-align: middle;
 	background-size: auto auto;
@@ -120,7 +149,7 @@
 	background-position: -6px -508px;
 }
 
-.msgimg:HOVER{
+.msgimg:HOVER {
 	background-image: url("bar.png");
 	vertical-align: middle;
 	background-size: auto auto;
@@ -129,8 +158,9 @@
 	height: 27px;
 	width: 27px;
 	background-position: -6px -476px;
-}	
-.msgimg:ACTIVE{
+}
+
+.msgimg:ACTIVE {
 	background-image: url("bar.png");
 	vertical-align: middle;
 	background-size: auto auto;
@@ -139,10 +169,10 @@
 	height: 27px;
 	width: 27px;
 	background-position: -6px -349px;
-}	
+}
 
 /*menu notification*/
-.ntimg{
+.ntimg {
 	background-image: url("bar.png");
 	vertical-align: middle;
 	background-size: auto auto;
@@ -152,7 +182,8 @@
 	width: 27px;
 	background-position: -1px -986px;
 }
-.ntimg:HOVER{
+
+.ntimg:HOVER {
 	background-image: url("bar.png");
 	vertical-align: middle;
 	background-size: auto auto;
@@ -163,7 +194,7 @@
 	background-position: -1px -955px;
 }
 
-.ntimg:ACTIVE{
+.ntimg:ACTIVE {
 	background-image: url("bar.png");
 	vertical-align: middle;
 	background-size: auto auto;
@@ -174,9 +205,8 @@
 	background-position: -1px -924px;
 }
 
-
 /*menu privacy*/
-.priv{
+.priv {
 	background-image: url("bar.png");
 	vertical-align: middle;
 	background-size: auto auto;
@@ -184,9 +214,30 @@
 	display: inline-block;
 	height: 16px;
 	width: 16px;
-	background-position: -32px -564px;
+	background-position: -32px -562px;
 }
 
+.priv:HOVER {
+	background-image: url("bar.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background-position: -32px -548px;
+}
+
+.priv:ACTIVE {
+	background-image: url("bar.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background-position: -30px -105px;
+}
 
 #aaa {
 	background-color: transparent;
@@ -195,28 +246,57 @@
 	margin-left: 4px;
 	text-decoration: none;
 }
-#alnb{
-	margin-left:-3px;
+
+#alnb {
+	margin-left: -3px;
 }
-#alnn{
-	margin-left:-14px;
+
+#alnn {
+	margin-left: -14px;
 }
-.logt{
-	background-image: url("green.png");
+
+.logt {
+	background-image: url("care.png");
 	vertical-align: middle;
 	background-size: auto auto;
 	background-repeat: no-repeat;
 	display: inline-block;
 	height: 16px;
 	width: 13px;
-	background-position: -175px -192px;
+	background-position: -112px -167px;
 }
-#caretpos{
-	margin-left: -25px;
+
+.logt:HOVER {
+	background-image: url("care.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 16px;
+	width: 13px;
+	background-position: -100px -167px;
 }
-#lockpos{
-	margin-left: -7px;
+
+.logt:ACTIVE {
+	background-image: url("care.png");
+	vertical-align: middle;
+	background-size: auto auto;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 16px;
+	width: 13px;
+	background-position: -52px -167px;
 }
+
+#caretpos {
+	margin-left: 0px;
+}
+
+#lockpos {
+	margin-left: 5px;
+	margin-bottom: 6px;
+}
+
 .meenu ul li ul .divider {
 	display: block;
 	width: auto;
@@ -335,7 +415,7 @@ body {
 
 .firstdiv {
 	margin-left: 15px;
-	margin-top: 62px;
+	margin-top: 50px;
 	width: 160px;
 }
 
@@ -505,7 +585,7 @@ body {
 }
 
 .seconddiv {
-	margin-top: 62px;
+	margin-top: 50px;
 	width: 490px;
 	padding-bottom: 20px;
 }
@@ -593,6 +673,7 @@ body {
 	font-size: 12px;
 	color: C;
 	padding-left: 10px;
+	color: #3B5998;
 }
 
 .stat ul textarea.form-control {
@@ -806,7 +887,7 @@ body {
 }
 
 .thirddiv {
-	margin-top: 62px;
+	margin-top: 50px;
 	width: 250px;
 	height: auto;
 	margin-left: 10px;
@@ -927,9 +1008,9 @@ body {
 }
 
 .chatpane {
-	margin-top: 62px;
+	margin-top: 50px;
 	width: 20px;
-	height: 600px;
+	height: 650px;
 	position: fixed;
 	margin-left: 1070px;
 	float: right;
@@ -966,7 +1047,7 @@ body {
 }
 
 .chatalnn {
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-left: -40px;
 	background-color: white;
 	width: 203px;
@@ -1003,8 +1084,7 @@ body {
 
 .greendot {
 	margin-left: 5px;
-
-	background-image : url('green.png');
+	background-image: url('green.png');
 	background-size: auto auto;
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -1017,21 +1097,22 @@ body {
 
 .grnclr {
 	color: #63A924;
-	
 	font-size: 9px;
-	
 }
 
 .grnclr:HOVER {
 	color: #63A924;
 	text-decoration: none;
 }
-#grn1{
-	margin-left:52px;
+
+#grn1 {
+	margin-left: 52px;
 }
-#grn2{
+
+#grn2 {
 	margin-left: 80px;
 }
-#grn3{
-	margin-left:50px;
+
+#grn3 {
+	margin-left: 50px;
 }
